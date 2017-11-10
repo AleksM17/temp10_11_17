@@ -1,0 +1,17 @@
+<script>
+        let field1 = document.querySelector("form[name=signup2] input[type=email]");
+        field1.addEventListener("focus",function(){
+            this.form.classList.remove("animated");
+        },true);
+
+        field1.addEventListener("blur",function(){
+
+            this.form.style.animationName = "bounceOutRight";
+            this.form.style.animationIterationCount = 1;
+            this.form.classList.add("animated");
+            this.form.addEventListener("animationend",function(){
+                this.hidden = true;
+            });
+        },true);
+
+    </script>

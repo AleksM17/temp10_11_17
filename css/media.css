@@ -1,0 +1,55 @@
+﻿@media only screen and (min-width : 0px) and (max-width : 1370px) {
+
+    body{
+        height:3290px;
+    	width: 1200px;
+    }
+
+    header, #second_block, #third_block, #fourth_block, #fifth_block, #sixth_block, #footer {
+        width: 1200px;
+        background-size: 100%;
+    }
+        #second_block
+        {
+            height:674px;
+        }
+        header #menu #how_it_works {
+            margin-right: 1.64%;
+            margin-left: 15%;
+        }
+ 
+
+        #third_block #evernote_emblem {
+            margin: 3.9% 0% 0% 4.7%;
+        }
+
+        #third_block #microsoft_emblem {
+            margin: 0% 0% 0.3% 7.8%;
+        }
+
+        #third_block #google_emblem {
+            margin: 0% 0% -0.58% 7.7%;
+        }
+
+        #third_block #sony_emblem {
+            margin: 0% 0% 0.3% 7.7%;
+        }
+
+        #third_block #firefox_emblem {
+            margin: 0% 0% 0.1% 7.7%;
+        }
+
+        #fourth_block #image_macbook img {          
+            width: 50.8%;
+        }
+
+
+    #footer #fmenu {
+     
+        margin-left: 20.1%;
+      
+       
+    }
+
+ 
+}
